@@ -14,6 +14,8 @@
 		D33666AD24AA178A003FCA9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33666AC24AA178A003FCA9F /* Assets.xcassets */; };
 		D33666B024AA178A003FCA9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33666AF24AA178A003FCA9F /* Preview Assets.xcassets */; };
 		D33666B324AA178A003FCA9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33666B124AA178A003FCA9F /* Main.storyboard */; };
+		D33666BE24AA4A30003FCA9F /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33666BD24AA4A30003FCA9F /* EditorView.swift */; };
+		D33666C024AA4AC1003FCA9F /* HtmlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33666BF24AA4AC1003FCA9F /* HtmlView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +29,8 @@
 		D33666B224AA178A003FCA9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D33666B424AA178A003FCA9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D33666B524AA178A003FCA9F /* SongPro_Again.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SongPro_Again.entitlements; sourceTree = "<group>"; };
+		D33666BD24AA4A30003FCA9F /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
+		D33666BF24AA4AC1003FCA9F /* HtmlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HtmlView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +72,8 @@
 				D33666B524AA178A003FCA9F /* SongPro_Again.entitlements */,
 				D33666A924AA1786003FCA9F /* Document.xcdatamodeld */,
 				D33666AE24AA178A003FCA9F /* Preview Content */,
+				D33666BD24AA4A30003FCA9F /* EditorView.swift */,
+				D33666BF24AA4AC1003FCA9F /* HtmlView.swift */,
 			);
 			path = "SongPro Again";
 			sourceTree = "<group>";
@@ -155,6 +161,8 @@
 				D33666A624AA1786003FCA9F /* Document.swift in Sources */,
 				D33666A424AA1786003FCA9F /* AppDelegate.swift in Sources */,
 				D33666A824AA1786003FCA9F /* ContentView.swift in Sources */,
+				D33666BE24AA4A30003FCA9F /* EditorView.swift in Sources */,
+				D33666C024AA4AC1003FCA9F /* HtmlView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
