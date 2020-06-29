@@ -16,6 +16,8 @@
 		D33666B324AA178A003FCA9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33666B124AA178A003FCA9F /* Main.storyboard */; };
 		D33666BE24AA4A30003FCA9F /* EditorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33666BD24AA4A30003FCA9F /* EditorView.swift */; };
 		D33666C024AA4AC1003FCA9F /* HtmlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33666BF24AA4AC1003FCA9F /* HtmlView.swift */; };
+		D33666C324AA7C68003FCA9F /* SongPro.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33666C224AA7C68003FCA9F /* SongPro.swift */; };
+		D33666C524AA7CA5003FCA9F /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33666C424AA7CA5003FCA9F /* Song.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		D33666B524AA178A003FCA9F /* SongPro_Again.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SongPro_Again.entitlements; sourceTree = "<group>"; };
 		D33666BD24AA4A30003FCA9F /* EditorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditorView.swift; sourceTree = "<group>"; };
 		D33666BF24AA4AC1003FCA9F /* HtmlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HtmlView.swift; sourceTree = "<group>"; };
+		D33666C224AA7C68003FCA9F /* SongPro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongPro.swift; sourceTree = "<group>"; };
+		D33666C424AA7CA5003FCA9F /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 		D33666A224AA1786003FCA9F /* SongPro Again */ = {
 			isa = PBXGroup;
 			children = (
+				D33666C224AA7C68003FCA9F /* SongPro.swift */,
+				D33666C424AA7CA5003FCA9F /* Song.swift */,
 				D33666A324AA1786003FCA9F /* AppDelegate.swift */,
 				D33666A524AA1786003FCA9F /* Document.swift */,
 				D33666A724AA1786003FCA9F /* ContentView.swift */,
@@ -161,8 +167,10 @@
 				D33666A624AA1786003FCA9F /* Document.swift in Sources */,
 				D33666A424AA1786003FCA9F /* AppDelegate.swift in Sources */,
 				D33666A824AA1786003FCA9F /* ContentView.swift in Sources */,
+				D33666C524AA7CA5003FCA9F /* Song.swift in Sources */,
 				D33666BE24AA4A30003FCA9F /* EditorView.swift in Sources */,
 				D33666C024AA4AC1003FCA9F /* HtmlView.swift in Sources */,
+				D33666C324AA7C68003FCA9F /* SongPro.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

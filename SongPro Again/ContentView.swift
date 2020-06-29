@@ -9,15 +9,14 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var song: String = "@title=Song Title"
-    @State var html: String = "<h1>Song Title</h1>"
+    @State var text: String = ""
     
     var body: some View {
         HStack {
-            EditorView(text: $song)
+            EditorView(text: $text)
                 .padding()
                 .background(Color(NSColor.controlBackgroundColor))
-            HtmlView(html: $song)
+            HtmlView(text: $text)
         }
     }
 }
