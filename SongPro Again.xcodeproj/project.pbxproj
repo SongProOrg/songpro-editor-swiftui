@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D33666A424AA1786003FCA9F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33666A324AA1786003FCA9F /* AppDelegate.swift */; };
+		D33666A624AA1786003FCA9F /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33666A524AA1786003FCA9F /* Document.swift */; };
+		D33666A824AA1786003FCA9F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33666A724AA1786003FCA9F /* ContentView.swift */; };
+		D33666AB24AA1786003FCA9F /* Document.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D33666A924AA1786003FCA9F /* Document.xcdatamodeld */; };
+		D33666AD24AA178A003FCA9F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33666AC24AA178A003FCA9F /* Assets.xcassets */; };
+		D33666B024AA178A003FCA9F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D33666AF24AA178A003FCA9F /* Preview Assets.xcassets */; };
+		D33666B324AA178A003FCA9F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D33666B124AA178A003FCA9F /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D33666A024AA1786003FCA9F /* SongPro Again.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SongPro Again.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33666A324AA1786003FCA9F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D33666A524AA1786003FCA9F /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		D33666A724AA1786003FCA9F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D33666AA24AA1786003FCA9F /* Document.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Document.xcdatamodel; sourceTree = "<group>"; };
+		D33666AC24AA178A003FCA9F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D33666AF24AA178A003FCA9F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D33666B224AA178A003FCA9F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D33666B424AA178A003FCA9F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D33666B524AA178A003FCA9F /* SongPro_Again.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SongPro_Again.entitlements; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D336669D24AA1786003FCA9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D336669724AA1786003FCA9F = {
+			isa = PBXGroup;
+			children = (
+				D33666A224AA1786003FCA9F /* SongPro Again */,
+				D33666A124AA1786003FCA9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D33666A124AA1786003FCA9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D33666A024AA1786003FCA9F /* SongPro Again.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D33666A224AA1786003FCA9F /* SongPro Again */ = {
+			isa = PBXGroup;
+			children = (
+				D33666A324AA1786003FCA9F /* AppDelegate.swift */,
+				D33666A524AA1786003FCA9F /* Document.swift */,
+				D33666A724AA1786003FCA9F /* ContentView.swift */,
+				D33666AC24AA178A003FCA9F /* Assets.xcassets */,
+				D33666B124AA178A003FCA9F /* Main.storyboard */,
+				D33666B424AA178A003FCA9F /* Info.plist */,
+				D33666B524AA178A003FCA9F /* SongPro_Again.entitlements */,
+				D33666A924AA1786003FCA9F /* Document.xcdatamodeld */,
+				D33666AE24AA178A003FCA9F /* Preview Content */,
+			);
+			path = "SongPro Again";
+			sourceTree = "<group>";
+		};
+		D33666AE24AA178A003FCA9F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D33666AF24AA178A003FCA9F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D336669F24AA1786003FCA9F /* SongPro Again */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D33666B824AA178A003FCA9F /* Build configuration list for PBXNativeTarget "SongPro Again" */;
+			buildPhases = (
+				D336669C24AA1786003FCA9F /* Sources */,
+				D336669D24AA1786003FCA9F /* Frameworks */,
+				D336669E24AA1786003FCA9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "SongPro Again";
+			productName = "SongPro Again";
+			productReference = D33666A024AA1786003FCA9F /* SongPro Again.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D336669824AA1786003FCA9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = SongPro;
+				TargetAttributes = {
+					D336669F24AA1786003FCA9F = {
+						CreatedOnToolsVersion = 11.5;
+					};
+				};
+			};
+			buildConfigurationList = D336669B24AA1786003FCA9F /* Build configuration list for PBXProject "SongPro Again" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D336669724AA1786003FCA9F;
+			productRefGroup = D33666A124AA1786003FCA9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D336669F24AA1786003FCA9F /* SongPro Again */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D336669E24AA1786003FCA9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33666B324AA178A003FCA9F /* Main.storyboard in Resources */,
+				D33666B024AA178A003FCA9F /* Preview Assets.xcassets in Resources */,
+				D33666AD24AA178A003FCA9F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D336669C24AA1786003FCA9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D33666AB24AA1786003FCA9F /* Document.xcdatamodeld in Sources */,
+				D33666A624AA1786003FCA9F /* Document.swift in Sources */,
+				D33666A424AA1786003FCA9F /* AppDelegate.swift in Sources */,
+				D33666A824AA1786003FCA9F /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D33666B124AA178A003FCA9F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D33666B224AA178A003FCA9F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D33666B624AA178A003FCA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D33666B724AA178A003FCA9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		D33666B924AA178A003FCA9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "SongPro Again/SongPro_Again.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SongPro Again/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SongPro Again/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.songpro.SongPro-Again";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		D33666BA24AA178A003FCA9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "SongPro Again/SongPro_Again.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"SongPro Again/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "SongPro Again/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.15;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.songpro.SongPro-Again";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D336669B24AA1786003FCA9F /* Build configuration list for PBXProject "SongPro Again" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33666B624AA178A003FCA9F /* Debug */,
+				D33666B724AA178A003FCA9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D33666B824AA178A003FCA9F /* Build configuration list for PBXNativeTarget "SongPro Again" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D33666B924AA178A003FCA9F /* Debug */,
+				D33666BA24AA178A003FCA9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D33666A924AA1786003FCA9F /* Document.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D33666AA24AA1786003FCA9F /* Document.xcdatamodel */,
+			);
+			currentVersion = D33666AA24AA1786003FCA9F /* Document.xcdatamodel */;
+			path = Document.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D336669824AA1786003FCA9F /* Project object */;
+}
