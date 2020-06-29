@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Song {
+class Song {
     var title: String?
     var artist: String?
     var capo: String?
@@ -18,6 +18,7 @@ struct Song {
     var album: String?
     var tuning: String?
         
-    // Custom Attributes
-    // Sections
+    var custom = [String: String]()
+
+    var sections = [Section]()
 }
