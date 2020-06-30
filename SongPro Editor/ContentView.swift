@@ -10,12 +10,12 @@ import SwiftUI
 
 struct ContentView: View {
     @State var text: String = ""
-    
+
     var body: some View {
         HStack {
             EditorView(text: $text)
-                .padding()
-                .background(Color(NSColor.controlBackgroundColor))
+                    .padding()
+                    .background(Color(NSColor.controlBackgroundColor))
             HtmlView(text: $text)
         }
     }
@@ -23,6 +23,6 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        ContentView(text: "@title=Song Title\n@artist=Artist Name")
     }
 }

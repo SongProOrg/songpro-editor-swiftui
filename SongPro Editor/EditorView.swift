@@ -10,7 +10,7 @@ import SwiftUI
 
 struct EditorView: NSViewRepresentable {
     @Binding var text: String
-    
+
     func makeNSView(context: Context) -> NSTextView {
         let textView = NSTextView()
         textView.delegate = context.coordinator
@@ -22,30 +22,38 @@ struct EditorView: NSViewRepresentable {
     }
 
     func updateNSView(_ textView: NSTextView, context: Context) {
-//        textView.string = text
     }
-    
+
     func makeCoordinator() -> Coordinator {
         Coordinator(self)
     }
-    
+
     class Coordinator: NSObject, NSTextViewDelegate {
         var editorView: EditorView
-        
+
         init(_ editorView: EditorView) {
             self.editorView = editorView
         }
-        
+
         func textDidChange(_ notification: Notification) {
-            guard let text = notification.object as? NSText else { return }
+            guard let text = notification.object as? NSText else {
+                return
+            }
             self.editorView.text = text.string
         }
     }
-
 }
 
-//struct EditorView_Previews: PreviewProvider {
-//    static var previews: some View {
-//        EditorView(text: "Testing")
-//    }
-//}
+struct EditorView_PreviewContainer: View {
+    @State var text = "@title=Song Title\n@artist=Artist Name"
+
+    var body: some View {
+        EditorView(text: $text)
+    }
+}
+
+struct EditorView_Previews: PreviewProvider {
+    static var previews: some View {
+        EditorView_PreviewContainer()
+    }
+}

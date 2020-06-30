@@ -17,7 +17,7 @@ class Song {
     var year: String?
     var album: String?
     var tuning: String?
-        
+
     var custom = [String: String]()
 
     var sections = [Section]()
