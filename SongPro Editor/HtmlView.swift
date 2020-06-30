@@ -176,6 +176,7 @@ h2.artist {
                 html += "</div>"
             }
             html += "</div>"
+            html += "</div>"
         }
         
         html += "</body></html>"
