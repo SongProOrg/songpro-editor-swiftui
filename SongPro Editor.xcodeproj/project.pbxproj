@@ -38,6 +38,8 @@
 		D33666BF24AA4AC1003FCA9F /* HtmlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HtmlView.swift; sourceTree = "<group>"; };
 		D33666C224AA7C68003FCA9F /* SongPro.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongPro.swift; sourceTree = "<group>"; };
 		D33666C424AA7CA5003FCA9F /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
+		D3474E5F24AB686B00F42DAA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D3474E6024AB6B0800F42DAA /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
 		D375FF4724AAA796008C4BCD /* Part.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Part.swift; sourceTree = "<group>"; };
 		D3B497C924AA958A001F6220 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 		D3B497CB24AA9A8A001F6220 /* Line.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Line.swift; sourceTree = "<group>"; };
@@ -57,6 +59,8 @@
 		D336669724AA1786003FCA9F = {
 			isa = PBXGroup;
 			children = (
+				D3474E6024AB6B0800F42DAA /* screenshot.png */,
+				D3474E5F24AB686B00F42DAA /* README.md */,
 				D33666A224AA1786003FCA9F /* SongPro Editor */,
 				D33666A124AA1786003FCA9F /* Products */,
 			);
