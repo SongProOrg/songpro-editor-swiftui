@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "SongPro",
+        "repositoryURL": "https://github.com/SongProOrg/songpro-swift",
+        "state": {
+          "branch": "master",
+          "revision": "4d198d786620c9031ada02b7cfc718f1b0b27812",
+          "version": null
+        }
+      }
+    ]
+  },
+  "version": 1
+}
