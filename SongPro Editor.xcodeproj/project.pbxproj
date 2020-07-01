@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55F0BAEC24ACC58100F1BD15 /* PreviewData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55F0BAEB24ACC58100F1BD15 /* PreviewData.swift */; };
 		AD4E40CACA8DEBF9B7C8DF12 /* Part.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4E46333D14DFAB475DC9DB /* Part.swift */; };
 		AD4E447FBF7AD645FAB8838B /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4E4B78559114C616BCFB8A /* Section.swift */; };
 		AD4E48A4BCE203ACCFC3AB11 /* SongPro.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD4E4A21653D7FE5318D9743 /* SongPro.swift */; };
@@ -24,6 +25,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		55F0BAEB24ACC58100F1BD15 /* PreviewData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewData.swift; sourceTree = "<group>"; };
 		AD4E46333D14DFAB475DC9DB /* Part.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Part.swift; sourceTree = "<group>"; };
 		AD4E4A21653D7FE5318D9743 /* SongPro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SongPro.swift; sourceTree = "<group>"; };
 		AD4E4B78559114C616BCFB8A /* Section.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				D33666BD24AA4A30003FCA9F /* EditorView.swift */,
 				D33666BF24AA4AC1003FCA9F /* HtmlView.swift */,
 				AD4E41116165844BAC7C82AA /* SongPro */,
+				55F0BAEB24ACC58100F1BD15 /* PreviewData.swift */,
 			);
 			path = "SongPro Editor";
 			sourceTree = "<group>";
@@ -192,6 +195,7 @@
 				D33666C024AA4AC1003FCA9F /* HtmlView.swift in Sources */,
 				AD4E4D7058F16F14E5319126 /* Song.swift in Sources */,
 				AD4E40CACA8DEBF9B7C8DF12 /* Part.swift in Sources */,
+				55F0BAEC24ACC58100F1BD15 /* PreviewData.swift in Sources */,
 				AD4E48A4BCE203ACCFC3AB11 /* SongPro.swift in Sources */,
 				AD4E447FBF7AD645FAB8838B /* Section.swift in Sources */,
 				AD4E4BDADBB1B62DD1032DFF /* Line.swift in Sources */,
