@@ -8,6 +8,7 @@
 
 import SwiftUI
 import WebKit
+import SongPro
 
 struct HtmlView: NSViewRepresentable {
     @Binding var text: String
@@ -20,8 +21,7 @@ struct HtmlView: NSViewRepresentable {
     }
 
     func updateNSView(_ webView: WKWebView, context: Context) {
-        let songPro = SongPro()
-        let song = songPro.parse(lines: text)
+        let song = SongPro.parse(text)
         let html = buildHtml(song: song)
 
         webView.loadHTMLString(html, baseURL: nil)
