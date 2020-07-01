@@ -22,7 +22,41 @@ struct ContentView: View {
 }
 
 struct ContentView_Previews: PreviewProvider {
+    static var text = """
+@title=Escape Capsule
+@artist=Brian Kelly
+!bandcamp=https://spilth.bandcamp.com/track/escape-capsule
+
+# Verse 1
+
+Climb a-[D]board [A]
+I've been [Bm]waiting for you [F#m]
+Climb a-[G]board [D]
+You'll be [Asus4]safe in [A7]here
+
+# Chorus 1
+
+[G] I'm a [D]rocket [F#]made for your pro-[Bm]tection
+You're [G]safe with me, un-[A]til you leave
+
+# Solo
+
+| [Em] | [D] | [Em] | [D] |
+| [Em] | [D] | [Em] | [F#] |
+| [B] | [B] | [Bm] | [Bm] |
+"""
+    
     static var previews: some View {
-        ContentView(text: "@title=Song Title\n@artist=Artist Name")
+        Group {
+            ContentView(text: text)
+                .previewLayout(PreviewLayout.fixed(width: 800, height: 600))
+                .environment(\.colorScheme, .light)
+            .   previewDisplayName("Light Mode")
+            ContentView(text: text)
+                .environment(\.colorScheme, .dark)
+                .previewLayout(PreviewLayout.fixed(width: 800, height: 600))
+                .previewDisplayName("Dark Mode")
+        }
+        
     }
 }
