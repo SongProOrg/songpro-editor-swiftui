@@ -178,11 +178,24 @@ struct HtmlView: NSViewRepresentable {
             }
             html += "<div class=\"lines\">"
             section.lines.forEach { (line) in
-                html += "<div class=\"line\">"
-                line.parts.forEach { (part) in
-                    html += "<div class=\"part\"><div class=\"chord\">\(part.chord!)</div><div class=\"lyric\">\(part.lyric!)</div></div>"
+                
+                if !line.measures.isEmpty {
+                    html += "<div class=\"measures\">"
+                    line.measures.forEach { (measure) in
+                        html += "<div class=\"measure\">"
+                        measure.chords.forEach { (chord) in
+                            html += "<div class=\"chord\">" + chord + "</div>"
+                        }
+                        html += "</div>"
+                    }
+                    html += "</div>"
+                } else {
+                    html += "<div class=\"line\">"
+                    line.parts.forEach { (part) in
+                        html += "<div class=\"part\"><div class=\"chord\">\(part.chord!)</div><div class=\"lyric\">\(part.lyric!)</div></div>"
+                    }
+                    html += "</div>"
                 }
-                html += "</div>"
             }
             html += "</div>"
             html += "</div>"
