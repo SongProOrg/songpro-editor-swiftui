@@ -189,6 +189,8 @@ struct HtmlView: NSViewRepresentable {
                         html += "</div>"
                     }
                     html += "</div>"
+                } else if line.comment != nil {
+                    html += "<div class=\"comment\">" +  line.comment! + "</div>"
                 } else {
                     html += "<div class=\"line\">"
                     line.parts.forEach { (part) in
